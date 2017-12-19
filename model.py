@@ -23,7 +23,6 @@ class CharRNN:
             num_seqs, num_steps = 1, 1
         else:
             num_seqs, num_steps = num_seqs, num_steps
-
         self.num_classes = num_classes
         self.num_seqs = num_seqs
         self.num_steps = num_steps
